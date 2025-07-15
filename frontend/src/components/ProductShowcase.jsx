@@ -17,7 +17,7 @@ const ProductCard = ({ product }) => {
       <div className="relative aspect-[3/4] overflow-hidden bg-neutral-100">
         {!imageLoaded && !imageError && (
           <div className="absolute inset-0 flex items-center justify-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary-600"></div>
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-neutral-600"></div>
           </div>
         )}
         
@@ -51,10 +51,10 @@ const ProductCard = ({ product }) => {
       </div>
       
       <div className="p-6">
-        <h3 className="font-semibold text-lg text-neutral-900 mb-2 group-hover:text-primary-600 transition-colors duration-200">
+        <h3 className="font-semibold text-lg text-neutral-900 mb-2 group-hover:text-neutral-700 transition-colors duration-200">
           {product.name}
         </h3>
-        <p className="text-2xl font-bold text-primary-600">
+        <p className="text-2xl font-bold text-neutral-800">
           {formatPrice(product.price)}
         </p>
         {product.category && (

@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid md:grid-cols-4 gap-8">
           {/* Brand section */}
           <div className="md:col-span-2">
-            <h3 className="font-serif text-2xl font-bold mb-4 text-primary-400">
+            <h3 className="font-serif text-2xl font-bold mb-4 text-neutral-300">
               Betternship Fashion
             </h3>
             <p className="text-neutral-300 mb-6 max-w-md leading-relaxed">
@@ -21,7 +21,7 @@ const Footer = () => {
             <div className="flex gap-4">
               <a 
                 href="#" 
-                className="w-10 h-10 bg-neutral-800 hover:bg-primary-600 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-neutral-800 hover:bg-neutral-700 rounded-full flex items-center justify-center transition-colors duration-200"
                 aria-label="Facebook"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -30,16 +30,16 @@ const Footer = () => {
               </a>
               <a 
                 href="#" 
-                className="w-10 h-10 bg-neutral-800 hover:bg-primary-600 rounded-full flex items-center justify-center transition-colors duration-200"
+                className="w-10 h-10 bg-neutral-800 hover:bg-neutral-700 rounded-full flex items-center justify-center transition-colors duration-200"
                 aria-label="Instagram"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
                   <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 6.62 5.367 11.987 11.988 11.987 6.62 0 11.987-5.367 11.987-11.987C24.014 5.367 18.637.001 12.017.001zM8.449 16.988c-1.297 0-2.448-.49-3.323-1.297C4.198 14.895 3.708 13.744 3.708 12.447s.49-2.448 1.297-3.323c.875-.807 2.026-1.297 3.323-1.297s2.448.49 3.323 1.297c.807.875 1.297 2.026 1.297 3.323s-.49 2.448-1.297 3.323c-.875.807-2.026 1.297-3.323 1.297zm7.718-1.297c-.875.807-2.026 1.297-3.323 1.297s-2.448-.49-3.323-1.297c-.807-.875-1.297-2.026-1.297-3.323s.49-2.448 1.297-3.323c.875-.807 2.026-1.297 3.323-1.297s2.448.49 3.323 1.297c.807.875 1.297 2.026 1.297 3.323s-.49 2.448-1.297 3.323z"/>
                 </svg>
               </a>
-              <a 
-                href="#" 
-                className="w-10 h-10 bg-neutral-800 hover:bg-primary-600 rounded-full flex items-center justify-center transition-colors duration-200"
+              <a
+                href="#"
+                className="w-10 h-10 bg-neutral-800 hover:bg-neutral-700 rounded-full flex items-center justify-center transition-colors duration-200"
                 aria-label="Twitter"
               >
                 <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -54,22 +54,22 @@ const Footer = () => {
             <h4 className="font-semibold text-lg mb-4">Quick Links</h4>
             <ul className="space-y-2">
               <li>
-                <a href="#" className="text-neutral-300 hover:text-primary-400 transition-colors duration-200">
+                <a href="#" className="text-neutral-300 hover:text-neutral-100 transition-colors duration-200">
                   About Us
                 </a>
               </li>
               <li>
-                <a href="#products" className="text-neutral-300 hover:text-primary-400 transition-colors duration-200">
+                <a href="#products" className="text-neutral-300 hover:text-neutral-100 transition-colors duration-200">
                   Collection
                 </a>
               </li>
               <li>
-                <a href="#" className="text-neutral-300 hover:text-primary-400 transition-colors duration-200">
+                <a href="#" className="text-neutral-300 hover:text-neutral-100 transition-colors duration-200">
                   Size Guide
                 </a>
               </li>
               <li>
-                <a href="#" className="text-neutral-300 hover:text-primary-400 transition-colors duration-200">
+                <a href="#" className="text-neutral-300 hover:text-neutral-100 transition-colors duration-200">
                   Contact
                 </a>
               </li>
@@ -111,13 +111,13 @@ const Footer = () => {
           </p>
           
           <div className="flex gap-6 mt-4 md:mt-0">
-            <a href="#" className="text-neutral-400 hover:text-primary-400 text-sm transition-colors duration-200">
+            <a href="#" className="text-neutral-400 hover:text-neutral-200 text-sm transition-colors duration-200">
               Privacy Policy
             </a>
-            <a href="#" className="text-neutral-400 hover:text-primary-400 text-sm transition-colors duration-200">
+            <a href="#" className="text-neutral-400 hover:text-neutral-200 text-sm transition-colors duration-200">
               Terms of Service
             </a>
-            <a href="#" className="text-neutral-400 hover:text-primary-400 text-sm transition-colors duration-200">
+            <a href="#" className="text-neutral-400 hover:text-neutral-200 text-sm transition-colors duration-200">
               Cookies
             </a>
           </div>

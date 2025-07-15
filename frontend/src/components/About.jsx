@@ -7,7 +7,7 @@ const About = () => {
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-16 animate-slide-up">
             <h2 className="heading-secondary mb-6">Our Story</h2>
-            <div className="w-24 h-1 bg-primary-600 mx-auto mb-8"></div>
+            <div className="w-24 h-1 bg-neutral-600 mx-auto mb-8"></div>
           </div>
           
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -53,10 +53,10 @@ const About = () => {
             
             {/* Image/Visual element */}
             <div className="relative animate-slide-up" style={{ animationDelay: '200ms' }}>
-              <div className="aspect-[4/5] bg-gradient-to-br from-primary-100 to-primary-200 rounded-2xl overflow-hidden relative">
+              <div className="aspect-[4/5] bg-gradient-to-br from-neutral-100 to-neutral-200 rounded-2xl overflow-hidden relative">
                 {/* Placeholder for brand image */}
                 <div className="absolute inset-0 flex items-center justify-center">
-                  <div className="text-center text-primary-600">
+                  <div className="text-center text-neutral-600">
                     <svg className="w-24 h-24 mx-auto mb-4 opacity-60" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
                     </svg>
@@ -71,8 +71,8 @@ const About = () => {
               </div>
               
               {/* Floating elements */}
-              <div className="absolute -top-4 -left-4 w-8 h-8 bg-primary-400 rounded-full opacity-60 animate-pulse"></div>
-              <div className="absolute -bottom-4 -right-4 w-6 h-6 bg-primary-500 rounded-full opacity-80 animate-pulse delay-1000"></div>
+              <div className="absolute -top-4 -left-4 w-8 h-8 bg-neutral-400 rounded-full opacity-40 animate-pulse"></div>
+              <div className="absolute -bottom-4 -right-4 w-6 h-6 bg-neutral-500 rounded-full opacity-50 animate-pulse delay-1000"></div>
             </div>
           </div>
           
@@ -81,8 +81,8 @@ const About = () => {
             <h3 className="text-2xl font-semibold text-center mb-12 text-neutral-900">Our Values</h3>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="text-center">
-                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-neutral-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z" />
                   </svg>
                 </div>
@@ -91,8 +91,8 @@ const About = () => {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-neutral-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9v-9m0-9v9" />
                   </svg>
                 </div>
@@ -101,8 +101,8 @@ const About = () => {
               </div>
               
               <div className="text-center">
-                <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
-                  <svg className="w-8 h-8 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <div className="w-16 h-16 bg-neutral-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <svg className="w-8 h-8 text-neutral-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" />
                   </svg>
                 </div>

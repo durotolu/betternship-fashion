@@ -9,11 +9,11 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-primary-50 to-primary-100 overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-gradient-to-br from-neutral-50 to-neutral-100 overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-40">
         <div className="absolute inset-0" style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ec4899' fill-opacity='0.05'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23bdc1c6' fill-opacity='0.03'%3E%3Ccircle cx='30' cy='30' r='4'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
         }}></div>
       </div>
       
@@ -22,7 +22,7 @@ const Hero = () => {
           {/* Brand name */}
           <h1 className="heading-primary mb-6">
             <span className="block">Betternship</span>
-            <span className="block text-primary-600">Fashion</span>
+            <span className="block text-primary-700">Fashion</span>
           </h1>
           
           {/* Tagline */}
@@ -62,9 +62,9 @@ const Hero = () => {
       </div>
       
       {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-20 h-20 bg-primary-200 rounded-full opacity-60 animate-pulse"></div>
-      <div className="absolute bottom-20 right-10 w-16 h-16 bg-primary-300 rounded-full opacity-40 animate-pulse delay-1000"></div>
-      <div className="absolute top-1/2 right-20 w-12 h-12 bg-primary-400 rounded-full opacity-30 animate-pulse delay-500"></div>
+      <div className="absolute top-20 left-10 w-20 h-20 bg-neutral-200 rounded-full opacity-30 animate-pulse"></div>
+      <div className="absolute bottom-20 right-10 w-16 h-16 bg-neutral-300 rounded-full opacity-20 animate-pulse delay-1000"></div>
+      <div className="absolute top-1/2 right-20 w-12 h-12 bg-neutral-400 rounded-full opacity-15 animate-pulse delay-500"></div>
     </section>
   );
 };

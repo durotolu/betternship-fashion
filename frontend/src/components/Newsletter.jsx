@@ -66,14 +66,14 @@ const Newsletter = () => {
   };
 
   return (
-    <section id="newsletter" className="section-padding bg-gradient-to-r from-primary-600 to-primary-700">
+    <section id="newsletter" className="section-padding bg-gradient-to-r from-neutral-800 to-neutral-900">
       <div className="container-custom">
         <div className="max-w-4xl mx-auto text-center">
           <div className="animate-slide-up">
             <h2 className="heading-secondary text-white mb-6">
               Stay in Style
             </h2>
-            <p className="text-xl text-primary-100 mb-8 max-w-2xl mx-auto leading-relaxed">
+            <p className="text-xl text-neutral-300 mb-8 max-w-2xl mx-auto leading-relaxed">
               Be the first to know about our latest collections, exclusive offers, 
               and fashion insights. Join our community of style enthusiasts.
             </p>
@@ -88,7 +88,7 @@ const Newsletter = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email address"
-                    className="w-full px-4 py-3 rounded-lg border border-transparent focus:border-primary-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-neutral-900 placeholder-neutral-500"
+                    className="w-full px-4 py-3 rounded-lg border border-transparent focus:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-neutral-900 placeholder-neutral-500"
                     disabled={status === 'loading'}
                   />
                 </div>
@@ -126,24 +126,24 @@ const Newsletter = () => {
               )}
             </form>
             
-            <p className="text-primary-200 text-sm mt-6">
+            <p className="text-neutral-400 text-sm mt-6">
               We respect your privacy. Unsubscribe at any time.
             </p>
           </div>
           
           {/* Social proof */}
           <div className="mt-12 animate-slide-up" style={{ animationDelay: '400ms' }}>
-            <div className="flex items-center justify-center gap-8 text-primary-200">
+            <div className="flex items-center justify-center gap-8 text-neutral-400">
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">5K+</div>
                 <div className="text-sm">Subscribers</div>
               </div>
-              <div className="w-px h-8 bg-primary-400"></div>
+              <div className="w-px h-8 bg-neutral-600"></div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">Weekly</div>
                 <div className="text-sm">Updates</div>
               </div>
-              <div className="w-px h-8 bg-primary-400"></div>
+              <div className="w-px h-8 bg-neutral-600"></div>
               <div className="text-center">
                 <div className="text-2xl font-bold text-white">Exclusive</div>
                 <div className="text-sm">Offers</div>
