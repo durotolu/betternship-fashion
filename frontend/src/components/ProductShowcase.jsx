@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useEffect, useState } from 'react';
 import apiService from '../services/api';
 
 const ProductCard = ({ product }) => {
@@ -126,7 +126,7 @@ const ProductShowcase = () => {
               <p className="text-red-600">Failed to load products: {error}</p>
               <button 
                 onClick={() => window.location.reload()} 
-                className="mt-4 btn-primary"
+                className="mt-4 btn-primary cursor-pointer"
               >
                 Try Again
               </button>

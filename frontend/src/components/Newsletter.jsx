@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import apiService from '../services/api';
 
 const Newsletter = () => {
@@ -88,14 +88,14 @@ const Newsletter = () => {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                     placeholder="Enter your email address"
-                    className="w-full px-4 py-3 rounded-lg border border-transparent focus:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-neutral-900 placeholder-neutral-500"
+                    className="w-full px-4 py-3 rounded-lg border border-transparent focus:border-neutral-300 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 text-white placeholder-neutral-500"
                     disabled={status === 'loading'}
                   />
                 </div>
                 <button
                   type="submit"
                   disabled={status === 'loading'}
-                  className="bg-white hover:bg-neutral-50 text-primary-600 font-medium py-3 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 min-w-[120px]"
+                  className="bg-white hover:bg-neutral-50 text-primary-600 font-medium py-3 px-6 rounded-lg transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-white focus:ring-opacity-50 disabled:opacity-50 disabled:cursor-not-allowed flex items-center justify-center gap-2 min-w-[120px] cursor-pointer"
                 >
                   {status === 'loading' ? (
                     <>

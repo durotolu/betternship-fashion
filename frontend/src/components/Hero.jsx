@@ -1,4 +1,3 @@
-import React from 'react';
 
 const Hero = () => {
   const scrollToProducts = () => {
@@ -35,7 +34,7 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button 
               onClick={scrollToProducts}
-              className="btn-primary text-lg px-8 py-4 animate-bounce-gentle"
+              className="btn-primary text-lg px-8 py-4 animate-bounce-gentle cursor-pointer"
             >
               Explore Collection
             </button>
@@ -46,7 +45,7 @@ const Hero = () => {
                   newsletterSection.scrollIntoView({ behavior: 'smooth' });
                 }
               }}
-              className="btn-secondary text-lg px-8 py-4"
+              className="btn-secondary text-lg px-8 py-4 cursor-pointer"
             >
               Join Newsletter
             </button>
