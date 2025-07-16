@@ -1,4 +1,8 @@
-const API_BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:3001';
+const API_BASE_URL = import.meta.env.VITE_API_URL || (
+  import.meta.env.PROD
+    ? '' // Use relative URLs in production (same domain)
+    : 'http://localhost:3001' // Use local backend in development
+);
 
 class ApiService {
   constructor() {
